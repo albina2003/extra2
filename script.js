@@ -34,7 +34,7 @@ let numberOfWordsInTheMessage = cword(t);
 
     console.log('The most frequent word of the message is ${theMostFrequentWord}')
     console.log('The number of words in the message is ${numberOfElementsInTheArray}')
-
+}
 
 
 
@@ -54,4 +54,4 @@ const randomPhrasesAndPictures = [
         imageURL: "https://thejapanhobbyist.files.wordpress.com/2017/03/64013553.jpg"
     }
 ]
-}
+
