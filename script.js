@@ -1,4 +1,5 @@
 document.getElementById("submit").onclick = function myfn1() {
+  cword(total)
 const message = document.getElementById("message")
 
 
@@ -30,10 +31,10 @@ let messageWords = []
 let theMostFrequentWord;
 let numberOfWordsInTheMessage = cword(t);
 
-cword(total)
+
     console.log('The most frequent word of the message is ${theMostFrequentWord}')
     console.log('The number of words in the message is ${numberOfElementsInTheArray}')
-}
+
 
 
 
@@ -53,3 +54,4 @@ const randomPhrasesAndPictures = [
         imageURL: "https://thejapanhobbyist.files.wordpress.com/2017/03/64013553.jpg"
     }
 ]
+}
